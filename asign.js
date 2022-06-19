@@ -97,14 +97,22 @@ let b = process.argv[3];
 // }
 // console.log(product)
 
-// Take a number and return all the even digits of the number.
-// for (let i = a; i > 0; i = i) {
-//   let n = i % 10;
-//   if (n % 2 == 0) {
-//     console.log(n);
+// Take a number and return all the even digits of the number.;
+// let r=0;
+// while(a>0){
+//    r=(r*10)+(a%10);
+//    a=Math.floor(a/10);
+// }
+
+
+// for (let i = r; i > 0; i = i) {
+//   r = i % 10;
+//   if (r % 2 == 0) {
+//     console.log(r);
 //   }
 //   i = Math.floor(i / 10);
 // }
+
 
 // Check whether the given number is equal to its reverse number or not
 // let rem, temp, res = 0;
